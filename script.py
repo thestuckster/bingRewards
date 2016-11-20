@@ -44,14 +44,14 @@ def login(browser):
 
     print "Signing in..."
     email_box = browser.find_element_by_id("i0116")
-    email_box.send_keys("sstucky3@gmail.com")
+    email_box.send_keys("")
 
     next_btn = browser.find_element_by_id("idSIButton9")
     next_btn.click()
     time.sleep(1)
 
     password_box = browser.find_element_by_id("i0118")
-    password_box.send_keys("nikond90")
+    password_box.send_keys("")
 
     sign_in_btn = browser.find_element_by_id("idSIButton9")
     sign_in_btn.click()
